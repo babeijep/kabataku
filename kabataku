@@ -1,0 +1,35 @@
+#include <iostream>
+
+using namespace std;
+
+int pertambahan(int x, int y){
+    return x + y;
+}
+
+int kurang(int x, int y){
+    return x - y;
+}
+
+int bagi(int x, int y){
+    return x / y;
+}
+
+int kali(int x, int y){
+    return x * y;
+}
+
+void log(int result){
+    cout << "hasilnya adalah " << result << endl;
+}
+
+int main() {
+    int tgs1 = pertambahan(9, 9);
+    int tgs2 = kurang(88, 8);
+    int tgs3 = bagi(34, 2);
+    int tgs4 = kali(4, 8);
+    log(tgs1);
+    log(tgs2);
+    log(tgs3);
+    log(tgs4);
+    return 0;
+}
